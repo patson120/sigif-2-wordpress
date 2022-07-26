@@ -1,0 +1,121 @@
+
+.post-categories{
+    display: flex;
+}
+
+
+.post-categories li{
+    list-style-type: none; 
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.post-categories li:hover a{
+    text-decoration: none;
+}
+
+.post__meta .avatar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mon-carousel{
+    height: 70vh;
+    overflow: hidden;
+    justify-content: center;
+}
+.carousel-inner, .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 530px){
+    .mon-carousel{
+        height: 35vh;
+    }
+}
+
+.carousel-inner img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.max-width{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.page-link{
+    color: #001;
+}
+.white-color{
+    font-weight: 900;
+    color: #fff;
+}
+
+.active, .page-item.active .page-link{
+    background: #28a745 !important;
+    border-color: #28a745 !important;
+    font-weight: bold;
+}
+
+.some-modules, .autres-services{
+    background-image: url('../img/357078_w-1200_h-630_q-70_m-crop.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 1px rgba(128, 128, 128, 0);
+}
+
+.autres-modules{
+    background-image: url('../img/photo-foret.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 1px rgba(128, 128, 128, 0);
+}
+
+
+.actualite .nav-item a{
+    color: #28a745;
+    font-weight: bold;
+}
+.actualite:hover{
+    background-color: #28a745 !important;
+}
+.actualite:hover .nav-item a{
+    color: #001 !important;
+}
+
+.actualite:hover .card-link{
+    background-color: #001 !important;
+}
+
+.actualite{
+    border: none;
+}
+
+.the_content p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 24px;
+}    
+
+#footer{
+    background: #171b2a; 
+}
+
+#footer a{
+    text-decoration: none;
+    line-height: 2;
+}
+#footer a:hover{
+    font-weight: bold;
+    color: #28a745 !important;
+}
+
+.copyright{
+    background: #282b38;
+}

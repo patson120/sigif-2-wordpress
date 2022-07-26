@@ -1,0 +1,30 @@
+/*
+Theme Name: SIGIF 2
+Theme URI: https://capitainewp.io
+Author: Patrick
+Description: Site web pour la présentation d'application SIGIF 2: Systhème de gestion des informations forestières
+Version: 1.0
+*/
+
+
+body{
+    background: linear-gradient(90deg, #2c3128c7 0%, #525f74 50%, #2c3128c7 80%) !important;
+}
+
+.degrade{
+    background: linear-gradient(90deg, #2c3128c7 0%, #525f74 50%, #2c3128c7 80%) !important;
+}
+
+.menu-principal{
+    padding: 3px 5%;
+}
+.navbar-toggler{
+    background: white;
+    border: solid 1px red;
+}
+
+.menu-principal .nav-link:hover,
+.menu-principal .nav-link:active{
+    color: greenyellow !important;
+}
+
